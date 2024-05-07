@@ -27,6 +27,7 @@ function NewTodo({ onhandle }) {
           id="title"
           onChange={handleInputChange}
           value={todo.title}
+          required
         />
       </div>
       <div className="form-field">
@@ -37,6 +38,7 @@ function NewTodo({ onhandle }) {
           id="desc"
           onChange={handleInputChange}
           value={todo.desc}
+          required
         />
       </div>
       <button type="submit">
